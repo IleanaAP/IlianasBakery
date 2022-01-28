@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Iliana's Bakery</title>
+  <link rel="icon" type="image/png" href="img/logo_IlianasBakery.png" />
+
+  <!--Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!--CSS stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- bootstrap script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1">
+          <a class="btn btn-md btn-outline-secondary" href="https://www.facebook.com/ilianampp" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+        </div>
+        <div class="col-4 text-center">
+          <a href="index.html"><img class="blog-header-logo" src="img/logo_IlianasBakery.png" alt width="150" height="150"></a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <a class="btn btn-md btn-outline-secondary" href="carrito.php"><i class="fas fa-shopping-basket"></i> Pedidos</a>
+        </div>
+      </div>
+    </header>
+
+    <hr>
+
+    <div class="nav-scroller py-1 mb-2">
+      <nav class="nav d-flex justify-content-between">
+        <a class="p-2 text-muted" href="index.html">Inicio</a>
+        <a class="p-2 text-muted" href="index.html#productos">Productos</a>
+        <a class="p-2 text-muted" href="#conocenos">Conócenos</a>
+        <a class="p-2 text-muted" href="#contacto">Contacto</a>
+      </nav>
+    </div>
+
+    <!--Anuncios-banner -->
+    <section id="anuncio">
+      <div id="anuncio-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#anuncio-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#anuncio-carousel" data-slide-to="1"></li>
+          <li data-target="#anuncio-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img-anuncio" src="img/anuncio1.png" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="img-anuncio" src="img/anuncio2.png" alt="">
+          </div>
+
+          <div class="carousel-item">
+            <img class="img-anuncio" src="img/anuncio3.png" alt="">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#anuncio-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#anuncio-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!--Sección productos -->
+  <section id="inicio-producto" name="productos">
+
+    <!-- lo más vendido -->
+    <section id="exitos" class="container">
+      <h1 class="prod">Nuestros productos</h1>
+      <h3 class="titulo">Lo más vendido</h3>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Caja navideña</h3>
+            </div>
+            <div class="card-body">
+              <img class="card-img" src="img/galletaNavidad.jpg" alt="galletas de navidad">
+              <h4 class="card-title pricing-card-title">¿Qué incluye?</h4>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 galletas para decorar</li>
+                <li>4 mangas con glaseado</li>
+                <li>Gomitas o sprinkles</li>
+                <li>Cajita personalizada</li>
+              </ul>
+              <h5 class="card-title pricing-card-title">Precio: $150 pesos</h5>
+              <!--<button type="button" class="btn btn-lg btn-block btn-outline-primary">Agregar</button>-->
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Caja personalizada</h3>
+            </div>
+            <div class="card-body">
+              <img class="card-img cajaPersonal" src="img/cajaPersonalizada.jpg" alt="Caja de galletas personalizadas" />
+              <h4 class="card-title pricing-card-title">¿Qué incluye?</h4>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Entre 6-8 galletas</li>
+                <li>Decoración de galletas personalizada</li>
+                <li>Cajita completamente personalizada</li>
+              </ul>
+              <h5 class="card-title pricing-card-title">Precio: $80 - $150</h5>
+              <!--<button type="button" class="btn btn-lg btn-block btn-outline-primary">Agregar</button>-->
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Casita de jengibre</h3>
+            </div>
+            <div class="card-body">
+              <img class="card-img casa" src="img/casaJengibre.jpg" alt="Casa de galletas">
+              <h4 class="card-title pricing-card-title">¿Qué incluye?</h4>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 galletas</li>
+                <li>bombones</li>
+                <li>gomitas con azucar</li>
+                <li>chocolates con cacahuate</li>
+                <li>betún</li>
+              </ul>
+              <h5 class="card-title pricing-card-title">Precio: $150 pesos</h5>
+              <!--<button type="button" class="btn btn-lg btn-block btn-outline-primary">Agregar</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Novedades -->
+    <section id="novedades" class="container">
+      <h3 class="titulo">Novedades</h3>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Galletas navideñas</h3>
+            </div>
+            <div class="card-body">
+              <img class="card-img individual" src="img/galletaIndividualNavidad.jpg" alt="una galleta en forma de estrella">
+              <h4 class="card-title pricing-card-title">Cantidad</h4>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>1 galleta decorada</li>
+              </ul>
+              <h5 class="card-title pricing-card-title">Precio: $15 pesos</h5>
+              <!--<button type="button" class="btn btn-lg btn-block btn-outline-primary">Agregar</button>-->
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Paquete evento</h3>
+            </div>
+            <div class="card-body">
+              <img class="card-img evento" src="img/paqueteEvento.jpg" alt="Variedad de productos. Pastel, galletas, cajas">
+              <h4 class="card-title pricing-card-title">¿Qué incluye?</h4>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Cantidad: a elegir</li>
+                <li>Tipo de repostería: a elegir</li>
+              </ul>
+              <h5 class="card-title pricing-card-title">Precio: cotiza con nosotros</h5>
+              <!--<button type="button" class="btn btn-lg btn-block btn-outline-primary">Agregar</button>-->
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Galleta personalizada</h3>
+            </div>
+            <div class="card-body">
+              <img class="card-img personal" src="img/bobEsponjaGalletas.jpg" alt="Galletas de Bob Esponja">
+              <h4 class="card-title pricing-card-title">Cantidad</h4>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>1 galleta</li>
+                <li>Decoración personalizada</li>
+              </ul>
+              <h5 class="card-title pricing-card-title">Precio: $15 pesos</h5>
+              <!--<button type="button" class="btn btn-lg btn-block btn-outline-primary">Agregar</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!--Sección conócenos/quiénes somos -->
+  <section id="conocenos">
+    <div class="container">
+      <h2>¡Conócenos! ¿Quiénes somos?</h2>
+      <p class="texto">
+        Somos un nuevo negocio local en Hermosillo, Sonora, fundado en Octubre de 2020 pero con un historial de varios años
+        sin estar oficialmente en la marca de <em>"Iliana's Bakery"</em>. Lo que se busca es llegar a las casas de cada familia para que puedan
+        crear nuevos momentos en compañía de seres queridos. Cuidando que todo sea especial y distinto para cada cliente, podrás encontrar
+        nuestro toque especial.
+      </p>
+      <p class="texto">
+        Como sabemos que pones de tu parte al elegirnos por nuestro producto, nosotros queremos ofrecer el mejor servicio al cliente por lo
+        que nuestras entregas a domicilio vienen totalmente incluidas en la compra de nuestros productos (solo en Hermosillo).
+      </p>
+      <p class="texto">
+        Visitanos en nuestro perfil de Facebook y aquí en nuestro sitio web. Todo es totalmente en línea.
+      </p>
+      <p class="texto">
+        <strong>¡Bienvenido y gracias por tu preferencia!</strong>
+      </p>
+      <img class="card-img logo" src="img/logo_IlianasBakery.png" alt="Logo Iliana's Bakery" />
+    </div>
+  </section>
+
+  <!--Sección features (3) -->
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-dollar-sign fa-4x features-icon"></i>
+        <h3 class="features-h3">Excelentes precios</h3>
+        <p class="features-p">Contamos con precios agradables para cualquier tipo de presupuesto.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-calendar-check fa-4x features-icon"></i>
+        <h3 class="features-h3">Tu decides la entrega</h3>
+        <p class="features-p">Nosotros nos acomodamos a tu fecha de entrega.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-lightbulb fa-4x features-icon"></i>
+        <h3 class="features-h3">Personalizado a tu gusto</h3>
+        <p class="features-p">¡Tu decides totalmente el diseño de tu producto!</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Sección contacto -->
+  <section id="contacto" name="contacto">
+    <div class="container">
+      <h2>¡Contáctanos!</h2>
+      <h3>Envíanos un correo electrónico si tienes alguna duda, comentario, queja, etc. o puedes contactarnos a través de Facebook.</h3><br />
+      <form class="needs-validation" novalidate action="mailto:ilianampp@hotmail.com" method="post" name="formContacto" enctype="text/plain">
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputName">Nombre y apellido</label>
+            <input type="text" class="form-control" id="inputName" name="nombre" required />
+            <div class="invalid-feedback">Por favor escriba un nombre y apellido.</div>
+          </div>
+          <div class="form-group col-md-8">
+            <label for="inputEmail">Correo electrónico</label>
+            <input type="email" class="form-control" id="inputEmail" name="email" required />
+            <div class="invalid-feedback">Por favor escriba un correo electrónico de contacto.</div>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputTel">Teléfono/celular</label>
+            <input type="tel" class="form-control" id="inputTel" name="telefono" pattern="[0-9]{10}" required />
+            <div class="invalid-feedback">Por favor escriba un teléfono o celular de contacto válido.</div>
+          </div>
+          <div class="form-group col-md-12">
+            <label for="inputMessage">Mensaje</label>
+            <textarea class="form-control" id="inputMessage" name="mensaje" rows="3" required></textarea>
+            <div class="invalid-feedback">Por favor escriba su mensaje o asunto.</div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="horarios" name="registro">
+    <div class="container">
+      <h3>Horario Iliana's Bakery</h3>
+      <ul class="list-unstyled mt-3 mb-4">
+        <li><strong>Lunes a viernes:</strong> 8:00 am a 20:00 pm</li>
+        <li><strong>Sábados:</strong> 9:00 am a 19:00 pm</li>
+        <li><strong>Domingo:</strong> Descanso</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Registro -->
+  <section id="registro" name="registro">
+    <div class="container">
+      <h3>¡Regístrate y obtén ofertas exclusivas!</h3>
+      <form action="registro.php" method="POST" class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="nombreRegistro">Nombre</label>
+            <input type="text" class="form-control" id="nombreRegistro" name="nombreRegistro" required />
+            <div class="invalid-feedback">
+              Por favor llene el campo Nombre.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="apellidoRegistro">Apellido</label>
+            <input type="text" class="form-control" id="apellidoRegistro" name="apellidoRegistro" required />
+            <div class="invalid-feedback">
+              Por favor llene el campo Apellido.
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="emailRegistro">Correo Electrónico</label>
+          <input type="email" class="form-control" id="emailRegistro" aria-describedby="emailR" name="emailRegistro" required />
+          <small id="emailR" class="form-text text-muted">Nunca compartiremos tu correo electrónico con terceros.</small>
+          <div class="invalid-feedback">
+            Por favor registre un correo electrónico válido.
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="checkRegistro" required />
+            <label class="form-check-label" for="checkRegistro">Acepto registrarme en Iliana's Bakery</label>
+            <div class="invalid-feedback">
+              Debes aceptar antes de registrarte.
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Registrarme</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="blog-footer">
+    <br />
+    <a class="footer-link" href="index.html">Inicio</a>
+    <a class="footer-link" href="index.html#productos">Productos</a>
+    <a class="footer-link" href="index.html#conocenos">Conócenos</a>
+    <a class="footer-link" href="index.html#contacto">Contacto</a>
+    <br /><br />
+    <p>© Copyright 2020 Iliana's Bakery</p>
+    <p>
+      <a href="#">Subir</a>
+    </p>
+  </footer>
+
+  <!--Script para validar datos -->
+  <script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        var forms = document.getElementsByClassName('needs-validation');
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+#titulo {
+  background-color:#fabea7;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+
+.logo {
+  display: block;
+  vertical-align: middle;
+  border-style: none;
+  width: 150;
+  height: 150;
+  margin-top: 1%;
+}
+
+/*seccion anuncios */
+#anuncios {
+  text-align: center;
+  background-color: #fabea7;
+}
+
+.img-anuncio {
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  padding: 1% 1%;
+}
+
+/*Productos */
+#inicio-productos {
+  background-color: #f2dcbb;
+}
+
+.prod {
+  align: left;
+}
+
+/* lo mas vendido */
+#exitos {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.titulo {
+  text-align: left;
+}
+
+.card-title {
+  margin-top: .7rem;
+}
+
+.card-img {
+  display: block;
+  margin: auto;
+}
+
+.cajaPersonal {
+  width: 85%;
+}
+
+.individual {
+  width: 73%;
+  height: 73%;
+}
+
+.casa {
+  width: 96%;
+}
+
+#novedades {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.evento {
+  width: 90%;
+}
+
+.personal {
+  width: 90%;
+}
+
+/*conocenos */
+#conocenos {
+  padding: 5% 10% 3%;
+  background-color: #fff8c1;
+}
+
+.texto {
+  text-align: justify;
+}
+
+.logo {
+  width: 250px;
+}
+
+/*features*/
+#features {
+  padding: 5% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/*contacto*/
+#contacto {
+  padding: 7% 12%;
+  background-color: #ffe3d8;
+  position: relative;
+  z-index: 1;
+}
+
+.dc {
+  padding-bottom: 5rem;
+}
+
+/*carrito */
+.text-muted {
+  color: #bbbbbb!important;
+}
+
+/*Horarios */
+#horarios {
+  padding: 7% 12%;
+  background-color: #fff;
+  text-align: center;
+  color: #e6739f;
+}
+
+/*Registro */
+#registro {
+  padding: 7% 12%;
+  background-color: #f3eac2;
+}
+
+/*pie de pagina */
+#footer {
+  background-color: #393e46;
+  text-align: center;
+  color: #999;
+  padding: 1.5rem 0;
+  border-top: .05rem solid;
+}
+
+.footer-link {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eeeeee;
+}
+
+.ft-carrito {
+  padding-top: 3rem;
+}
